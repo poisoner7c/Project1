@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
 
@@ -28,10 +28,17 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script>
+        function warning(){
+            alert('아직 홈페이지를 다운 받을수 없습니다!!!');
+        }
+    </script>
 
 </head>
 
 <body id="page-top" class="index">
+    <audio src="RingMyBell.mp3" autoplay loop preload="auto">
+    </audio>
 
     <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
@@ -75,7 +82,7 @@
                     <div class="intro-text">
                         <span class="name">맛집 탐방</span>
                         <hr class="star-light">
-                        <span class="skills">
+                        <span class="skills" style="font-size:35px">두잇두잇!</span>
                     </div>
                 </div>
             </div>
@@ -167,13 +174,13 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>4조 팀프로젝트를 위해 만든 홈페이지입니다.</p>
+                    <p>이 홈페이지는 다양한 음식을 소개 하기 위해 만든 홈페이지입니다. 원하는 사진을 클릭하면 음식에 대해 설명이 나와있습니다.</p>
                 </div>
                 <div class="col-lg-4">
-                    <p>맛집 소개를 통해 <br>다양한 맛집을 알 수 있습니다.</p>
+                    <p>또한 음식에 관련된 링크가 있기 때문에 음식에 관련된 맛집에 대한 정보도 얻을 수 있습니다.</p>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
+                    <a onclick="warning()" class="btn btn-lg btn-outline">
                         <i class="fa fa-download"></i>홈페이지 다운로드
                     </a>
                 </div>
